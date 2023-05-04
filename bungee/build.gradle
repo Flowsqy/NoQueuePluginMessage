@@ -1,0 +1,4 @@
+plugins {
+    id "noqueuepluginmessage.java-bungee-conventions"
+    id "noqueuepluginmessage.java-plugin-conventions"
+}

@@ -1,0 +1,13 @@
+plugins {
+    id "java-library"
+}
+
+archivesBaseName = rootProject.name
+
+tasks.named("jar", Jar) {
+    archiveClassifier = project.name
+}
+
+processResources {
+    expand("version": version)
+}
