@@ -11,6 +11,7 @@ import net.md_5.bungee.event.EventPriority;
 
 public class ReceiveMessageListener implements Listener {
 
+    @SuppressWarnings("unused")
     @EventHandler(priority = EventPriority.HIGHEST)
     public void onPluginMessageReceived(PluginMessageEvent event) {
         if (event.isCancelled()) {
