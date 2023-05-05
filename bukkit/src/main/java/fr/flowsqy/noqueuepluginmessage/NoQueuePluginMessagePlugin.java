@@ -20,4 +20,5 @@ public class NoQueuePluginMessagePlugin extends JavaPlugin {
         final ChannelRegistry channelRegistry = new ChannelRegistry();
         channelRegistry.unregister(this);
     }
+
 }
