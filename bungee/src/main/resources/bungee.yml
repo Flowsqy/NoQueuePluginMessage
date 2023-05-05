@@ -1,4 +1,4 @@
-name: NoQueuePluginMessagePlugin
+name: NoQueuePluginMessage
 version: "${version}"
 author: Flowsqy
 main: fr.flowsqy.noqueuepluginmessage.NoQueuePluginMessagePlugin
