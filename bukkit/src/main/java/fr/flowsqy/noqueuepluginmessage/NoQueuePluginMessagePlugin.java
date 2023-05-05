@@ -5,6 +5,7 @@ import fr.flowsqy.noqueuepluginmessage.channel.ChannelRegistry;
 import fr.flowsqy.noqueuepluginmessage.task.SendDataTask;
 import org.bukkit.plugin.java.JavaPlugin;
 
+@SuppressWarnings("unused")
 public class NoQueuePluginMessagePlugin extends JavaPlugin {
 
     @Override

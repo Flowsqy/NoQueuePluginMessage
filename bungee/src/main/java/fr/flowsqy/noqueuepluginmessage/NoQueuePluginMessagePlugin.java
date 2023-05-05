@@ -4,6 +4,7 @@ import fr.flowsqy.noqueuepluginmessage.channel.ChannelRegistry;
 import fr.flowsqy.noqueuepluginmessage.listener.ReceiveMessageListener;
 import net.md_5.bungee.api.plugin.Plugin;
 
+@SuppressWarnings("unused")
 public class NoQueuePluginMessagePlugin extends Plugin {
 
     @Override
