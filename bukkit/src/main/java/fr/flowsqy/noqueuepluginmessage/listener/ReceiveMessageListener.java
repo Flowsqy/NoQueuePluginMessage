@@ -18,7 +18,7 @@ public class ReceiveMessageListener implements PluginMessageListener {
         }
         final PluginMessageReader reader = new PluginMessageReader();
         final SentData sentData = reader.read(message);
-        Bukkit.getPluginManager().callEvent(new DataReceiveEvent(Bukkit.isPrimaryThread(), player, sentData.channel(), sentData.data()));
+        Bukkit.getPluginManager().callEvent(new DataReceiveEvent(!Bukkit.isPrimaryThread(), player, sentData.channel(), sentData.data()));
     }
 
 }
