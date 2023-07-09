@@ -20,6 +20,7 @@ public class ReceiveMessageListener implements Listener {
         if (!ChannelRegistry.CHANNEL.equals(event.getTag())) {
             return;
         }
+        event.setCancelled(true);
         final PluginMessageReader reader = new PluginMessageReader();
         final SentData sentData = reader.read(event.getData());
         final SendDataTask sendDataTask = new SendDataTask();
